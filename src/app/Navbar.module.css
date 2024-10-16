@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #0070f3;
+    padding: 1rem;
+  }
+  
+  .navList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navItem {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navItem a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .navItem {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
