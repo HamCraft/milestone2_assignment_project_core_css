@@ -2,14 +2,11 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRef, useState } from 'react';
+import {useState } from 'react';
 
 export default function Home() {
   // State to manage menu toggle
   const [isNavActive, setIsNavActive] = useState(false);
-  
-  // Ref for the toggle button
-  const menuToggleRef = useRef<HTMLButtonElement | null>(null);
   
   // Toggle function for navLinks active state
   const handleMenuToggle = () => {
@@ -69,7 +66,7 @@ export default function Home() {
           <p>Front End Intern at Code Alpha (July 2024 - August 2024)</p>
         </section>
 
-        <button id="toggle">Toggle Sections</button>
+        
       </main>
     </>
   );
